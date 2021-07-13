@@ -1,0 +1,9 @@
+<!-- 图片一行2列排版 -->
+<view class="img">
+  <view class="img_left">
+    <image mode="widthFix" src="{{item}}" wx:for="{{list}}" wx:key="index" wx:if="{{index%2 == 0}}" data-url="{{item}}" bindlongpress="img"></image>
+  </view>
+  <view class="img_right">
+    <image mode="widthFix" src="{{item}}" wx:for="{{list}}" wx:key="index" wx:if="{{index%2 != 0}}" data-url="{{item}}" bindlongpress="img"></image>
+  </view>
+</view>

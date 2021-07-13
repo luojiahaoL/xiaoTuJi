@@ -1,0 +1,8 @@
+<!-- 加载中1 -->
+<view class="home">
+  <view class="loader">
+  <view class="inner one"></view>
+  <view class="inner two"></view>
+  <view class="inner three"></view>
+</view>
+</view>

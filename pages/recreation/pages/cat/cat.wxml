@@ -1,0 +1,39 @@
+<!-- 猫咪 -->
+<view class="cats">
+  <view class="main">
+    <span class="stand"></span>
+    <view class="cat">
+      <view class="body"></view>
+      <view class="head">
+        <view class="ear"></view>
+        <view class="ear"></view>
+      </view>
+      <view class="face">
+        <view class="nose"></view>
+        <view class="whisker-container">
+          <view class="whisker"></view>
+          <view class="whisker"></view>
+        </view>
+        <view class="whisker-container">
+          <view class="whisker"></view>
+          <view class="whisker"></view>
+        </view>
+      </view>
+      <view class="tail-container">
+        <view class="tail">
+          <view class="tail">
+            <view class="tail">
+              <view class="tail">
+                <view class="tail">
+                  <view class="tail">
+                    <view class="tail"></view>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

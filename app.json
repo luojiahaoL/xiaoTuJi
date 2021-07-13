@@ -1,0 +1,50 @@
+{
+  "pages":[ 
+    "pages/index/index",       
+    "pages/search/search"
+  ],
+  "subPackages": [ 
+    {
+      "root": "pages/classify/",
+      "pages": [
+        "pages/index/index",
+        "pages/classifyDetail/classifyDetail" 
+      ]
+     },
+   {
+    "root": "pages/recreation",
+    "pages": [
+      "pages/index/index",
+      "pages/text/text",
+      "pages/rainbow/rainbow",
+      "pages/lamp/lamp",
+      "pages/code/code",
+      "pages/scarecrow/scarecrow",
+      "pages/loadiongOne/loadiongOne",
+      "pages/flight/flight",
+      "pages/rotateRainbow/rotateRainbow",
+      "pages/batman/batman",
+      "pages/grasshopper/grasshopper",
+      "pages/love/love",
+      "pages/roadRoller/roadRoller",
+      "pages/toyTrain/toyTrain",
+      "pages/meteor/meteor",
+      "pages/hyperspace/hyperspace",
+      "pages/ghost/ghost",
+      "pages/cocktail/cocktail",
+      "pages/dog/dog",
+      "pages/cat/cat",
+      "pages/parrot/parrot"
+    ]
+   }
+  ],
+  "requiredBackgroundModes": ["audio", "location"],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小兔姬壁纸",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

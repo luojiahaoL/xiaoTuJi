@@ -1,0 +1,19 @@
+<!-- 超空间 -->
+<view class="hyperspace">
+  <view class="scene">
+    <view class="wrap">
+      <view class="wall wall-right"></view>
+      <view class="wall wall-left"></view>
+      <view class="wall wall-top"></view>
+      <view class="wall wall-bottom"></view>
+      <view class="wall wall-back"></view>
+    </view>
+    <view class="wrap">
+      <view class="wall wall-right"></view>
+      <view class="wall wall-left"></view>
+      <view class="wall wall-top"></view>
+      <view class="wall wall-bottom"></view>
+      <view class="wall wall-back"></view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,16 @@
+<!-- 搜索 -->
+<view class="cont">
+  <view class="search">
+    <view>
+      <!-- bindconfirm="show" 回车事件 -->
+      <input type="text" placeholder="关键字搜索" maxlength="20" bindinput="isinput"></input>
+      <image src="../../static/img/search1.png" catchtap="isshow"></image>
+    </view>
+  </view>  
+   
+  <view class="search2">
+    <imgList list="{{list}}"></imgList>
+  </view>
+  
+
+</view>

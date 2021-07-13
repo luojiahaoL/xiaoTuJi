@@ -1,0 +1,28 @@
+<!-- 稻草人 -->
+<view class="body">
+  <view class="turnip">
+        <view class="turnip__hat">
+            <view class="turnip__ribbon"></view>
+        </view>
+        <view class="turnip__head">
+            <view class="turnip__eye"></view>
+            <view class="turnip__eye"></view>
+            <view class="turnip__mouth"></view>
+            <view class="turnip__pipe"></view>
+        </view>
+        <view class="turnip__body">
+            <view class="turnip__glove turnip__glove--l"></view>
+            <view class="turnip__sleeve turnip__sleeve--l"></view>
+            <view class="turnip__bow"></view>
+            <view class="turnip__shirt"></view>
+            <view class="turnip__coat"></view>
+            <view class="turnip__waistcoat"></view>
+            <view class="turnip__sleeve turnip__sleeve--r"></view>
+            <view class="turnip__glove turnip__glove--r"></view>
+            <view class="turnip__coattails"></view>
+            <view class="turnip__pants"></view>
+        </view>
+        <view class="turnip__arms"></view>
+        <view class="turnip__leg"></view>
+    </view>
+</view>

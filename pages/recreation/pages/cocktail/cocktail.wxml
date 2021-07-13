@@ -1,0 +1,23 @@
+<!-- 鸡尾酒 -->
+<view class="cocktails">
+  <view class="wrapper">
+ <view class="cocktail">
+   <view class="liquid"></view>
+   <view class="ice-cubes">
+     <view class="ice-cube ice-cube-1"></view>
+     <view class="ice-cube ice-cube-2"></view>
+     <view class="ice-cube ice-cube-3"></view>
+   </view>
+   <view class="lemon-slice"></view>
+   <view class="leaves">
+     <view class="leave leave-1"></view>
+     <view class="leave leave-2"></view>
+     <view class="leave leave-3"></view>
+   </view>
+   <view class="straw"></view>
+   <view class="straw-surface"></view>
+   <view class="shadow"></view>
+  </view> 
+</view>
+
+</view>

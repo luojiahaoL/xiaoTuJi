@@ -1,0 +1,16 @@
+<!-- 幽灵 -->
+<view class="container">
+  <view class="container__elements">
+    <view class="ghost">
+      <view class="ghost__eyes"></view>
+      <view class="ghost__dimples"></view>
+      <view class="ghost__feet"> 
+        <view class="ghost__feet-foot"></view>
+        <view class="ghost__feet-foot"></view>
+        <view class="ghost__feet-foot"></view>
+        <view class="ghost__feet-foot"></view>
+      </view>
+    </view>
+    <view class="shadow"></view>
+  </view>
+</view>

@@ -1,0 +1,12 @@
+<!-- 二维码 -->
+<view>
+  <view class="search">
+    <view> 
+      <input type="text" placeholder="请输入二维码内容" bindinput="isinput"></input>
+      <image src="/static/img/search1.png" catchtap="isshow"></image>
+    </view>
+  </view>
+
+  <image mode="widthFix" src="https://api.pwmqr.com/qrcode/create/?url={{img}}" class="ewm"></image>
+
+</view>

@@ -1,0 +1,14 @@
+.img{
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+} 
+.img_left,
+.img_right{
+  flex: 1;
+  padding: 5rpx;
+}
+.img_left>image,
+.img_right>image{
+  width: 100%;
+}

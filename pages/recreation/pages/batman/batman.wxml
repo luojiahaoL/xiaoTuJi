@@ -1,0 +1,24 @@
+<!-- 蝙蝠侠 -->
+<view class="home">
+  <view class="cent">
+    <view class="head-1"></view>
+    <view class="head-2"></view>
+    <view class="headear"></view>
+    <view class="headear-radius"></view>
+    <view class="white-square"></view>
+    <view class="face-left"></view>
+    <view class="face-right"></view>
+    <view class="face"></view>
+    <view class="brow-right"></view>
+    <view class="eye-left"></view>
+    <view class="eye-right"></view>
+    <view class="brow-left"></view>
+    <view class="back_mouse">纯css蝙蝠侠</view>
+    <view class="circle1"></view>
+    <view class="circle2"></view>
+    <view class="circle3"></view>
+    <view class="circle4"></view>
+    <view class="ear"></view>
+    <view class="ear-square"></view>
+  </view>
+</view>

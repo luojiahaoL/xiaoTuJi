@@ -1,0 +1,36 @@
+<!-- 小黄狗 -->
+<view class="dog">
+  <view class='container'>
+    <view class='body'>
+      <view class='ears'></view>
+      <view class='eyebrows'>
+        <view class='left'></view>
+        <view class='right'></view>
+      </view>
+      <view class='eyes'>
+        <view class='left'></view>
+        <view class='right'></view>
+      </view>
+      <view class='nose'></view>
+      <view class='mouth'></view>
+      <view class='whiskers'>
+        <view class='left'></view>
+        <view class='right'></view>
+      </view>
+      <view class='tongue'></view>
+      <view class='bandana'>
+        <view class='top'></view>
+        <view class='bottom'></view>
+      </view>
+      <view class='stomach'></view>
+    </view>
+    <view class='legs'>
+      <view class='lfront'></view>
+      <view class='lback'></view>
+      <view class='rfront'></view>
+      <view class='rback'></view>
+    </view>
+    <view class='tail'></view>
+  </view>
+
+</view>

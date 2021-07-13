@@ -1,0 +1,25 @@
+<!-- 压路机 -->
+<view class="road_roller">
+  <view class="machine-wrap">
+    <view class="machine">
+      <view class="machine-roof">
+        <view class="machine-silencer">
+          <view class="machine-smoke"></view>
+        </view>
+      </view>
+      <view class="machine-main">
+        <view class="machine-body"></view>
+        <view class="machine-back"></view>
+        <view class="machine-front"></view>
+      </view>
+    </view>
+    <view class="road">
+      <view class="mud-wrap clearfix">
+        <view class="mud"></view>
+        <view class="mud"></view>
+        <view class="mud"></view>
+        <view class="mud"></view>
+      </view>
+    </view>
+  </view>
+</view>

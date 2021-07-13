@@ -1,0 +1,7 @@
+<!-- 彩虹屁 -->
+<view class="ch">
+  <view class="cont" wx:if="{{cont!=''}}">{{cont}}</view>
+  <view class="cont" wx:else>功能维护中</view>
+  <!-- 再来一条 -->
+  <view class="next" catchtap="again">再来一条</view>
+</view>

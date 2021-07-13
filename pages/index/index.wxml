@@ -1,0 +1,37 @@
+<view class="home">
+  <!-- 搜索 -->
+  <navigator url="../search/search" class="search">
+    <view>
+      <image src="../../static/img/search1.png"></image>
+      <text>搜索你想要的壁纸(休闲娱乐里面可以联系客服呦)</text>
+    </view>
+  </navigator>
+  <!-- 轮播图 -->
+  <view class="lbt">
+    <!-- indicator-dots小点点  interval自动切换时间间隔 circular无缝轮播  indicator-color指示点颜色  indicator-active-color当前选中的指示点颜色-->
+    <swiper style="height:410rpx;" indicator-dots="true" autoplay="true" interval="2000" circular="true">
+      <swiper-item wx:for="{{lbtList}}" wx:for-item="lbt" wx:key="*this">
+        <image mode="widthFix" src="{{lbt}}" data-url="{{lbt}}" bindlongpress="img"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!-- 娱乐 -->
+  <view class="yule" catchtap="goRecreation">
+  <view>
+    <image mode="widthFix" src="../../static/img/yule.jpg"></image>
+    <text>休闲娱乐</text>
+  </view>
+  <text>查看更多</text>
+  </view>
+  <!-- 分类 -->
+  <view class="classif">
+    <navigator url="../classify/pages/index/index?index={{index}}" class="list" wx:for="{{classifyList}}" wx:for-item="item" wx:key="*this">
+      <image src="{{item.img}}"></image>
+      <text>{{item.tit}}</text>
+    </navigator>
+  </view>
+  <!-- 好图推荐 --> 
+  <imgList list="{{list}}"></imgList>
+  <!-- 获取用户信息 -->
+  <!-- <button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button> -->
+</view>

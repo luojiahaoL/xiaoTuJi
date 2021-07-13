@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "imgList":"../component/imgList/imgList"
+  },
+  "navigationBarTitleText": "小兔姬搜索"
+}

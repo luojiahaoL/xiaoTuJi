@@ -1,0 +1,31 @@
+.search{
+  width: 100%; 
+  background-color: white;
+  padding: 15rpx 0;
+}
+.search>view{ 
+  width: 94%;
+  height: 70rpx; 
+  background-color: #f1f1f1;
+  border-radius: 20rpx; 
+  font-size: 25rpx;  
+  display: flex;
+  margin: 0 auto;
+}
+.search>view>input{ 
+  padding-left: 20rpx;
+  flex: 1;
+  height: 70rpx;
+}
+.search>view>image{
+  width: 50rpx;
+  height: 50rpx; 
+  margin-top: 10rpx;
+  margin-right: 30rpx;
+} 
+
+.ewm{
+  width: 60%;
+  display: block;
+  margin: 50rpx auto;
+}

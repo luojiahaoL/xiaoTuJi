@@ -1,0 +1,17 @@
+<!-- 英雄详情 -->
+<view class="img">
+  <view class="img_left">
+    <view class="img_left_cent" wx:for="{{lists[index].list}}" wx:key="index" wx:if="{{index%2 == 0}}"
+      data-index="{{index}}" catchtap="goClassifDetail">
+      <image mode="widthFix" src="{{item.img}}" data-url="{{item.img}}" bindlongpress="img"></image>
+      <text>{{item.name}}</text>
+    </view>
+  </view>
+  <view class="img_right">
+    <view class="img_right_cent" wx:for="{{lists[index].list}}" wx:key="index" wx:if="{{index%2 != 0}}"
+      data-index="{{index}}" catchtap="goClassifDetail">
+      <image mode="widthFix" src="{{item.img}}" data-url="{{item.img}}" bindlongpress="img"></image>
+      <text>{{item.name}}</text>
+    </view>
+  </view>
+</view>

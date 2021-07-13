@@ -1,0 +1,9 @@
+<view class="yule">
+  <view class="classif">
+    <navigator url="{{item.url}}" class="list" wx:for="{{list}}" wx:for-item="item" wx:key="*this">
+      <image src="{{item.img}}"></image>
+      <text>{{item.tit}}</text>
+    </navigator>
+    <button open-type="contact" id="kf"></button>  
+  </view> 
+</view>

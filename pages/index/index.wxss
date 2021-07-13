@@ -1,0 +1,73 @@
+.home{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow-y: scroll;
+}
+.search{
+  height: 70rpx;
+  padding: 0 10rpx;
+}
+.search>view{
+  width: 100%;
+  height: 100%;
+  background-color: #f1f1f1;
+  margin: 0 auto;
+  border-radius: 20rpx;
+  display: flex;
+  align-items: center;
+  color: #747474;
+  font-size: 25rpx;
+}
+.search>view>image{
+  width: 50rpx;
+  height: 50rpx;
+  margin: 0 10rpx;
+}
+.lbt{
+  padding: 10rpx; 
+  margin-top: 20rpx;
+}
+.lbt image{
+  width: 100%;
+} 
+.classif{
+  font-size: 30rpx; 
+  overflow: hidden;
+  color: #747474; 
+  margin-bottom: 30rpx;
+}
+.list{
+  width: 20%;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  float: left;
+  margin: 20rpx 0;
+}
+.list>image{
+  width: 80rpx;
+  height: 80rpx;
+  margin-bottom: 5rpx;
+} 
+.yule{ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 16rpx; 
+  font-size: 30rpx;
+  color: #333;   
+}
+.yule>view{
+  display: flex;
+  align-items: center;
+}
+.yule>view>image{
+  width: 60rpx; 
+}
+.yule>text{
+  color: #666;
+  font-size: 24rpx; 
+}

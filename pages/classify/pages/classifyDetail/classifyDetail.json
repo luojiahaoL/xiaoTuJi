@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "imgListTwo":"../../../component/imgListTwo/imgListTwo"
+  },
+  "navigationBarTitleText": "皮肤详情"
+}

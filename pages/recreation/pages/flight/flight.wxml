@@ -1,0 +1,22 @@
+<!-- 飞行 -->
+<view class="fx">
+  <view class="body">
+    <span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+    <view class="base">
+      <span></span>
+      <view class="face"></view>
+    </view>
+  </view>
+  <view class="longfazers">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </view>
+  <view class="h1">Redirecting</view>
+</view>

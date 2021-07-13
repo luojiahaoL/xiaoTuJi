@@ -1,0 +1,8 @@
+<!-- 开关灯 -->
+<view class="lamp" wx:if="{{show}}"> 
+<image mode="widthFix" src="../../static/img/lamp2.jpg" catchtap="isshow"></image>
+</view>
+
+<view class="lamp islamp" wx:else>
+<image mode="widthFix" src="../../static/img/lamp1.jpg" catchtap="isshow"></image>
+</view>

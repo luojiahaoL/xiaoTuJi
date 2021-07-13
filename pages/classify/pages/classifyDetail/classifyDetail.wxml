@@ -1,0 +1,3 @@
+<!-- 皮肤详情 --> 
+<imgListTwo list="{{list[index].list}}"></imgListTwo>
+ 

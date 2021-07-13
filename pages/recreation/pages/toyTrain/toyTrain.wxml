@@ -1,0 +1,31 @@
+<!-- 玩具列车 -->
+<view class="train">
+  <view class="toy-train">
+    <view class="engine">
+      <view class="window">
+        <view class="engine-main">
+          <view class="smokes">
+            <span></span>
+          </view>
+        </view>
+      </view>
+      <view class="engine-body">
+        <view class="wheels">
+          <view class="big-wheel"></view>
+          <view class="normal-wheel"></view>
+        </view>
+      </view>
+    </view>
+    <view class="locomotive">
+      <view class="trash"></view>
+      <view class="wheels">
+        <view class="normal-wheel"></view>
+        <view class="normal-wheel"></view>
+      </view>
+    </view>
+    <view class="tracks">
+      <span></span>
+      <span></span>
+    </view>
+  </view>
+</view>

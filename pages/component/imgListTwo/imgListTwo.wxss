@@ -1,0 +1,28 @@
+.img{
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+} 
+.img_left,
+.img_right{
+  flex: 1;
+  padding: 5rpx;
+  position: relative;
+}
+.img_left_cent,
+.img_right_cent{ 
+  width: 100%;
+  position: relative;
+}
+.img_left_cent>image,
+.img_right_cent>image{
+  width: 100%;
+}
+.img_left_cent>text,
+.img_right_cent>text{
+  position: absolute;
+  color: white;
+  left: 20rpx;
+  bottom: 20rpx;
+  font-size: 24rpx;
+}
