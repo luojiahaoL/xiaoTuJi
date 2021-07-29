@@ -1,0 +1,7 @@
+<!-- 背景故事 -->
+<view class="bjgs">
+  <view class="bjgs1" hover-class="bjgs1_active" wx:for="{{list}}" wx:key="*this" data-index="{{index}}" catchtap="goBgStoryDetail">
+  <text>{{item}}</text>
+  <image mode="widthFix" src="/static/img/right.png"></image>
+  </view>
+</view>

@@ -1,0 +1,24 @@
+.bjgs{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #f8f8f8;
+  overflow-y: scroll;
+}
+.bjgs1{
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16rpx;
+  background-color: white;
+  font-size: 28rpx;
+  border-bottom: 2rpx solid #f7f7f7;
+}
+.bjgs1>image{
+  width: 35rpx;
+}  
+.bjgs1_active{
+  background-color: #FF4050;
+  color: white;
+}

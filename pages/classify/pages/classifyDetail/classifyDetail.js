@@ -52,7 +52,7 @@ Page({
           {
             img: 'http://shp.qpic.cn/ishow/2735071216/1626077530_84828260_12525_sProdImgNo_2.jpg/0',
             name: '乓乓大师 勇者/2021限时活动获取'
-          },
+          }, 
         ]
       },
       // 盘古
@@ -1941,6 +1941,14 @@ Page({
             name: '万圣前夜 伴生皮肤 288点券'
           },
           {
+            img: 'https://shp.qpic.cn/ishow/2735011815/1547797473_587358052_17290_sProdImgNo_2.jpg/0',
+            name: '缤纷独角兽 880点券'
+          },
+          {
+            img: 'https://shp.qpic.cn/ishow/2735012117/1548064617_1186005513_15208_sProdImgNo_2.jpg/0',
+            name: '纯白花嫁 情人节限定 788点券'
+          }, 
+          {
             img: 'https://shp.qpic.cn/ishow/2735092717/1601197753_84828260_29701_sProdImgNo_2.jpg/0',
             name: '天鹅之梦 荣耀水晶兑换'
           },
@@ -1951,14 +1959,6 @@ Page({
           {
             img: 'https://shp.qpic.cn/ishow/2735050821/1557323529_587358052_16229_sProdImgNo_2.jpg/0',
             name: '丁香结 勇者/限定 60点券'
-          },
-          {
-            img: 'https://shp.qpic.cn/ishow/2735012117/1548064617_1186005513_15208_sProdImgNo_2.jpg/0',
-            name: '纯白花嫁 情人节限定 788点券'
-          },
-          {
-            img: 'https://shp.qpic.cn/ishow/2735011815/1547797473_587358052_17290_sProdImgNo_2.jpg/0',
-            name: '缤纷独角兽 880点券'
           },
           {
             img: 'http://shp.qpic.cn/ishow/2735051817/1621329110_84828260_24679_sProdImgNo_2.jpg/0',
@@ -2319,6 +2319,10 @@ Page({
           {
             img: 'https://shp.qpic.cn/ishow/2735122815/1545981789_-888937974_11632_sProdImgNo_2.jpg/0',
             name: '星空梦想 荣耀水晶兑换'
+          },
+          {
+            img: 'http://shp.qpic.cn/ishow/2735071216/1626077564_84828260_20406_sProdImgNo_2.jpg/0',
+            name: '乒乒小将 史诗/2021奥运会限定 888点券'
           }
         ]
       },

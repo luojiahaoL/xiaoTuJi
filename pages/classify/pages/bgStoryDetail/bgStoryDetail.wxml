@@ -1,0 +1,8 @@
+<!-- 背景故事详情 -->
+<view class="bjgsxq">
+  <view class="bjgsxq_cent">
+    <view wx:for="{{lists}}" wx:key="*this">
+      {{item}}
+    </view>
+  </view>
+</view>

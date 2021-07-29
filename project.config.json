@@ -94,6 +94,13 @@
           "id": -1,
           "name": "测试",
           "pathName": "pages/recreation/pages/text/text",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "背景故事",
+          "pathName": "pages/classify/pages/bgStory/bgStory",
           "scene": null
         }
       ]

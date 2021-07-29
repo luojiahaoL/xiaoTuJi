@@ -17,20 +17,21 @@
   </view>
   <!-- 娱乐 -->
   <view class="yule" catchtap="goRecreation">
-  <view>
-    <image mode="widthFix" src="../../static/img/yule.jpg"></image>
-    <text>休闲娱乐</text>
-  </view>
-  <text>查看更多</text>
+    <view>
+      <image mode="widthFix" src="../../static/img/yule.jpg"></image>
+      <text>休闲娱乐</text>
+    </view>
+    <text>查看更多</text>
   </view>
   <!-- 分类 -->
   <view class="classif">
-    <navigator url="../classify/pages/index/index?index={{index}}" class="list" wx:for="{{classifyList}}" wx:for-item="item" wx:key="*this">
+    <view catchtap="goclassify" data-index="{{index}}" class="list" wx:for="{{classifyList}}" wx:for-item="item"
+      wx:key="*this">
       <image src="{{item.img}}"></image>
       <text>{{item.tit}}</text>
-    </navigator>
+    </view>
   </view>
-  <!-- 好图推荐 --> 
+  <!-- 好图推荐 -->
   <imgList list="{{list}}"></imgList>
   <!-- 获取用户信息 -->
   <!-- <button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button> -->
