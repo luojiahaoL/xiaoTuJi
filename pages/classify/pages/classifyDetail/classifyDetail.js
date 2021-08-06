@@ -52,7 +52,7 @@ Page({
           {
             img: 'http://shp.qpic.cn/ishow/2735071216/1626077530_84828260_12525_sProdImgNo_2.jpg/0',
             name: '乓乓大师 勇者/2021限时活动获取'
-          }, 
+          },
         ]
       },
       // 盘古
@@ -687,6 +687,10 @@ Page({
           {
             img: 'http://shp.qpic.cn/ishow/2735020916/1612860663_84828260_26932_sProdImgNo_2.jpg/0',
             name: '次元傲视 勇者/限定 60点券'
+          },
+          {
+            img: 'http://shp.qpic.cn/ishow/2735072812/1627447940_84828260_23031_sProdImgNo_2.jpg/0',
+            name: '天秀·启明 史诗 888点券'
           }
         ]
       },
@@ -1513,13 +1517,19 @@ Page({
     masterList: [
       // 西施
       {
-        list: [{
-          img: 'https://shp.qpic.cn/ishow/2735092412/1569299550_84828260_31469_sProdImgNo_2.jpg/0',
-          name: '归虚梦演 伴生皮肤 288点券'
-        }, {
-          img: 'http://shp.qpic.cn/ishow/2735042018/1618915965_84828260_2160_sProdImgNo_2.jpg/0',
-          name: '诗语江南 史诗 888点券'
-        }]
+        list: [
+          {
+            img: 'https://shp.qpic.cn/ishow/2735092412/1569299550_84828260_31469_sProdImgNo_2.jpg/0',
+            name: '归虚梦演 伴生皮肤 288点券'
+          }, {
+            img: 'http://shp.qpic.cn/ishow/2735042018/1618915965_84828260_2160_sProdImgNo_2.jpg/0',
+            name: '诗语江南 史诗 888点券'
+          },
+          {
+            img: 'http://shp.qpic.cn/ishow/2735080511/1628133281_84828260_9817_sProdImgNo_2.jpg/0',
+            name: '游龙清影 FMVP 1688点券'
+          },
+        ]
       },
       // 嫦娥
       {
@@ -1947,7 +1957,7 @@ Page({
           {
             img: 'https://shp.qpic.cn/ishow/2735012117/1548064617_1186005513_15208_sProdImgNo_2.jpg/0',
             name: '纯白花嫁 情人节限定 788点券'
-          }, 
+          },
           {
             img: 'https://shp.qpic.cn/ishow/2735092717/1601197753_84828260_29701_sProdImgNo_2.jpg/0',
             name: '天鹅之梦 荣耀水晶兑换'
